@@ -7,12 +7,15 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 body {
-  background: #eee;
+  background: #000;
+  background-image: url(./images/reactbackground.jpg);
+  background-size: cover;
   padding: 0 16px;
 }
 
 header {
-  background-color: #f5ba13;
+  background-color: #000;
+  text-align: center;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -33,7 +36,7 @@ footer {
 }
 
 footer p {
-  color: #ccc;
+  color: #000;
 }
 .note {
   background: #fff;
