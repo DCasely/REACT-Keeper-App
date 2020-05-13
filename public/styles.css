@@ -7,9 +7,9 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 body {
-  background: #000;
   background-image: url(./images/reactbackground.jpg);
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
   padding: 0 16px;
 }
 
@@ -26,6 +26,39 @@ header h1 {
   font-weight: 200;
 }
 
+.container {
+  margin: auto;
+  background: rgba(0, 0, 0, 0.25);
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  padding: 5rem 0;
+  margin-top: 2.5rem;
+}
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 15rem;
+  min-height: 20rem;
+  margin: 1rem;
+  float: left;
+}
+
+.note h1 {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
 footer {
   position: absolute;
   text-align: center;
@@ -36,23 +69,4 @@ footer {
 
 footer p {
   color: #000;
-}
-.note {
-  background: #fff;
-  border-radius: 7px;
-  box-shadow: 0 2px 5px #ccc;
-  padding: 10px;
-  width: 240px;
-  margin: 16px;
-  float: left;
-}
-.note h1 {
-  font-size: 1.1em;
-  margin-bottom: 6px;
-}
-.note p {
-  font-size: 1.1em;
-  margin-bottom: 10px;
-  white-space: pre-wrap;
-  word-wrap: break-word;
 }
