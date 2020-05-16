@@ -1,11 +1,16 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
 
-function Footer() {
-  const year = new Date().getFullYear();
-
+function Footer(props) {
   return (
     <footer>
-      <p>Copyright &copy; {year}.</p>
+      <Button
+        onClick={props.clearAllNotes}
+        variant="outlined"
+        color="secondary"
+      >
+        Clear All Notes
+      </Button>
     </footer>
   );
 }
