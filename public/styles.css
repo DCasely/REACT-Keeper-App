@@ -15,13 +15,14 @@ body {
 
 header {
   background: transparent;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 
 header h1 {
   color: #000;
   font-family: 'McLaren', cursive;
   font-weight: 200;
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -60,7 +61,7 @@ header h1 {
 form.create-note {
   position: relative;
   width: 480px;
-  margin: 30px auto 20px auto;
+  margin: 0.25rem auto 2rem;
   background: #fff;
   padding: 15px;
   border-radius: 7px;
