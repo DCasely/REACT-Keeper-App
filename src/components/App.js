@@ -25,11 +25,6 @@ function App() {
       content:
         "If people haven't laughed at your dreams, then you aren't dreaming big enough, just keep pushing forwared.",
     },
-    {
-      title: 'Stephen Covey',
-      content:
-        "Start with the end in mind. Seek first to understand, then to be understood. The key is not to prioritize what's on your schedule, but to schedule your priorities.",
-    },
   ]);
 
   function addNote(newNote) {
