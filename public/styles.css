@@ -26,6 +26,11 @@ header h1 {
   text-align: center;
 }
 
+.container {
+  width: 90%;
+  margin: auto;
+}
+
 .note {
   background: #fff;
   border-radius: 7px;
