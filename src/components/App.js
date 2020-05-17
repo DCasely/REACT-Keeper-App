@@ -30,11 +30,6 @@ function App() {
       content:
         "Start with the end in mind. Seek first to understand, then to be understood. The key is not to prioritize what's on your schedule, but to schedule your priorities.",
     },
-    {
-      title: 'Timothy Ferriss',
-      content:
-        'But you are the average of the five people you associate with most, so do not underestimate the effects of your pessimistic, unambitious, or disorganized friends.',
-    },
   ]);
 
   function addNote(newNote) {
